@@ -1,7 +1,7 @@
 # Title of your Project: Project Proposal 
 
 **TODO**: Edit this file. Your project proposal goes here.
-
+**TYPE IN HERE**
 For what to do, see the [`../instructions/`](../instructions/) directory, specifically: 
 
 * [Design Brief](../instructions/project-design-brief.pdf)
