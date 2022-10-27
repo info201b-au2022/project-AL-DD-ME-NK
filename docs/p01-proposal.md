@@ -2,7 +2,7 @@
 
 **Autumn 2022**\
 **By:** Anthony Lee, Niranjanaa Kannan, Munir Emam, Dev Dhawan\
-**Email:** [leeant22\@uw.edu](mailto:leeant22@uw.edu){.email}, [nkanna\@uw.edu](mailto:nkanna@uw.edu){.email}, [memamy3\@uw.edu](mailto:memamy3@uw.edu){.email}, [ddhawa\@uw.edu](mailto:ddhawa@uw.edu){.email}\
+**Email:** [leeant22\@uw.edu](mailto:leeant22@uw.edu), [nkanna\@uw.edu](mailto:nkanna@uw.edu), [memamy3\@uw.edu](mailto:memamy3@uw.edu), [ddhawa\@uw.edu](mailto:ddhawa@uw.edu)\
 **Affiliation:** INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
 
 ## Abstract
@@ -30,7 +30,8 @@ The use of force by police is sometimes inevitable in certain situations in orde
 ## Related Works
 
 1.  <https://time.com/5861953/police-reform-use-of-force-database/>\
-2.  <https://www.amnestyusa.org/issues/the-united-states-is-violating-the-human-rights-of-black-people-by-failing-to-restrict-use-of-deadly-force-by-police/>
+2.  <https://www.amnestyusa.org/issues/the-united-states-is-violating-the-human-rights-of-black-people-by-failing-to-restrict-use-of-deadly-force-by-police/>\
+3.  <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7331505/>
 
 ## Research Questions
 
