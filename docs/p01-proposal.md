@@ -1,3 +1,7 @@
+# Code Name
+
+"Newton""\
+
 # The Use of Force by Police: Project Proposal
 
 **Autumn 2022**\
@@ -35,9 +39,9 @@ The use of force by police is sometimes inevitable in certain situations in orde
 
 ## Research Questions
 
-1.  Do certain groups have higher rates of being victims of the use of force by police? This is important as it increases the divide between groups in society. Research has consistently shown that minorities feel that they are more likely to be singled out by police and have higher rates of distrust towards law enforcement.\
-2.  What outside factors increase the chances of force being used? Exploring factors that may increase the risk of force being used can help address the situation by finding solutions to fix the causes. The federal government can fund the establishment of institutions that state governments may not be able to afford.\
-3.  Does officer experience and training affect the frequency of force being used? Investigating whether law enforcement is properly trained is important in understanding whether training is playing a significant role in the rates of incidents involving the use of force. The question arises whether officers that lack experience may be more likely to resort to force to handle a situation.
+1.  **Do certain groups have higher rates of being victims of the use of force by police?** This is important as it increases the divide between groups in society. Research has consistently shown that minorities feel that they are more likely to be singled out by police and have higher rates of distrust towards law enforcement.\
+2.  **What outside factors increase the chances of force being used?** Exploring factors that may increase the risk of force being used can help address the situation by finding solutions to fix the causes. The federal government can fund the establishment of institutions that state governments may not be able to afford.\
+3.  **Does officer experience and training correlate with the frequency of force being used?** Investigating whether law enforcement is properly trained is important in understanding whether training is playing a significant role in the rates of incidents involving the use of force. The question arises whether officers that lack experience may be more likely to resort to force to handle a situation.
 
 ## The Dataset
 
@@ -52,11 +56,11 @@ The use of force by police is sometimes inevitable in certain situations in orde
 
 ### Citation
 
-(NOPD), P. D. (2022, October 26). NOPD use of force incidents. data.nola.gov. Retrieved October 26, 2022, from https://data.nola.gov/Public-Safety-and-Preparedness/NOPD-Use-of-Force-Incidents/9mnw-mbde 
+(NOPD), P. D. (2022, October 26). NOPD use of force incidents. data.nola.gov. Retrieved October 26, 2022, from <https://data.nola.gov/Public-Safety-and-Preparedness/NOPD-Use-of-Force-Incidents/9mnw-mbde>
 
-Department, D. P. (2022, January 7). Police response to resistance 2020: Dallas opendata. Police Response to Resistance 2020 | Dallas OpenData. Retrieved October 26, 2022, from https://www.dallasopendata.com/Public-Safety/Police-Response-to-Resistance-2020/nufk-2iqn 
+Department, D. P. (2022, January 7). Police response to resistance 2020: Dallas opendata. Police Response to Resistance 2020 \| Dallas OpenData. Retrieved October 26, 2022, from <https://www.dallasopendata.com/Public-Safety/Police-Response-to-Resistance-2020/nufk-2iqn>
 
-Seattle, C. of. (2022, October 26). Use of force: City of seattle open data portal. Seattle Open Data. Retrieved October 26, 2022, from https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj 
+Seattle, C. of. (2022, October 26). Use of force: City of seattle open data portal. Seattle Open Data. Retrieved October 26, 2022, from <https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj>
 
 ### Provenance of Dataset
 
