@@ -33,8 +33,8 @@ The use of force by police is sometimes inevitable in certain situations in orde
 
 ## Related Works
 
-1.  <https://time.com/5861953/police-reform-use-of-force-database/>\
-2.  <https://www.amnestyusa.org/issues/the-united-states-is-violating-the-human-rights-of-black-people-by-failing-to-restrict-use-of-deadly-force-by-police/>\
+1.  <https://time.com/5861953/police-reform-use-of-force-database/>
+2.  <https://www.amnestyusa.org/issues/the-united-states-is-violating-the-human-rights-of-black-people-by-failing-to-restrict-use-of-deadly-force-by-police/>
 3.  <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7331505/>
 
 ## Research Questions
@@ -63,6 +63,10 @@ Department, D. P. (2022, January 7). Police response to resistance 2020: Dallas 
 Seattle, C. of. (2022, October 26). Use of force: City of seattle open data portal. Seattle Open Data. Retrieved October 26, 2022, from <https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj>
 
 ### Provenance of Dataset
+
+a)  The data was collected by the New Orleans Police Department, Dallas Police Department, and the City of Seattle. The data for the New Orleans Police Department data is collected daily since October of 2016, the Dallas Police Department data only contains the data from 2020, and the Seattle Police Department data has been collected since June of 2014. The purpose of police departments collecting data and making them public is to be transparent with the public around policy, process, and training in the use of force by officers. A key goal of the police departments is the goal or maintaining public trust which they hope to sustain through the release of the records. They hope that greater transparency will allow police departments to work with communities to gain their support in policies and practices.
+b)  The collection of data is usually funded by state and local governments, but sometimes they will receive funding from the federal government. Both the police departments and the public benefits from the data collected on the use of force. The police departments are able to gain the trust of their communities while the public are able to hold police departments accountable.
+c) The data is collected and validated by the individual police departments. They are stored in public databases that allow anyone to download the data. The datasets are trustworthy and credible because they are collected directly from the primary source and not from a secondary source such as another organization or institution.
 
 ## Expected Implications
 
