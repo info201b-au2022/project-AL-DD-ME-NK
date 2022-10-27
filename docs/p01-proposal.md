@@ -52,12 +52,11 @@ The use of force by police is sometimes inevitable in certain situations in orde
 
 ### Citation
 
-(NOPD), P. D. (2022, October 26). NOPD use of force incidents. data.nola.gov.Retrieved October 26, 2022,     from\
-    <https://data.nola.gov/Public-Safety-and-Preparedness/NOPD-Use-of-Force-Incidents/9mnw-mbde>\
+(NOPD), P. D. (2022, October 26). NOPD use of force incidents. data.nola.gov. Retrieved October 26, 2022, from <https://data.nola.gov/Public-Safety-and-Preparedness/NOPD-Use-of-Force-Incidents/9mnw-mbde>
 
-Department, D. P. (2022, January 7). Police response to resistance 2020: Dallas opendata. Police Response     to Resistance 2020 \| Dallas OpenData. Retrieved October 26, 2022, from     <https://www.dallasopendata.com/Public-Safety/Police-Response-to-Resistance-2020/nufk-2iqn>\
+Department, D. P. (2022, January 7). Police response to resistance 2020: Dallas opendata. Police Response to Resistance 2020 \| Dallas OpenData. Retrieved October 26, 2022, from <https://www.dallasopendata.com/Public-Safety/Police-Response-to-Resistance-2020/nufk-2iqn>
 
-Seattle, C. of. (2022, October 26). Use of force: City of seattle open data portal. Seattle Open Data.     Retrieved October 26, 2022, from <https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj>
+Seattle, C. of. (2022, October 26). Use of force: City of seattle open data portal. Seattle Open Data. Retrieved October 26, 2022, from <https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj>
 
 ### Provenance of Dataset
 
