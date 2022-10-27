@@ -1,6 +1,6 @@
 # Code Name
 
-"Newton""\
+"Newton"
 
 # The Use of Force by Police: Project Proposal
 
