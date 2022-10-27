@@ -41,6 +41,26 @@ The use of force by police is sometimes inevitable in certain situations in orde
 
 ## The Dataset
 
+### Relation to Problem Domain
+
+### Table
+
+|                       | Dallas | Seattle | New Orleans |
+|:---------------------:|:------:|:-------:|:-----------:|
+|  **Number of Rows**   |  3409  |  14723  |    2995     |
+| **Number of Columns** |   44   |   11    |     33      |
+
+### Citation
+
+(NOPD), P. D. (2022, October 26). NOPD use of force incidents. data.nola.gov.Retrieved October 26, 2022,     from\
+    <https://data.nola.gov/Public-Safety-and-Preparedness/NOPD-Use-of-Force-Incidents/9mnw-mbde>\
+
+Department, D. P. (2022, January 7). Police response to resistance 2020: Dallas opendata. Police Response     to Resistance 2020 \| Dallas OpenData. Retrieved October 26, 2022, from     <https://www.dallasopendata.com/Public-Safety/Police-Response-to-Resistance-2020/nufk-2iqn>\
+
+Seattle, C. of. (2022, October 26). Use of force: City of seattle open data portal. Seattle Open Data.     Retrieved October 26, 2022, from <https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj>
+
+### Provenance of Dataset
+
 ## Expected Implications
 
 A possible implication is the exposal of a long sustained system of institutional racism for policymakers. Minority groups may face an abnormally higher rate of being victims of the use of force by law enforcement. Although minority groups account for a significantly less percentage of the population, they represent a drastically higher rate of being victims of the use of force by law enforcement. In addition, it may reveal prejudice towards certain groups causing them to be more prone to the use of force by law enforcement. Examples include mental illness, age, gender, addicts, ect. This implies the lack of policy making in government to address the situation such as the establishing of programs to help those in need. Furthermore, officers with less experience may lack skills in defusing situations and resort to the use of force. Abnormally high rates of the use of force incidents by officers with less experience indicates a lack of sufficient training and testing.
