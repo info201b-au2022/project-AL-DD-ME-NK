@@ -47,6 +47,8 @@ The use of force by police is sometimes inevitable in certain situations in orde
 
 ### Relation to Problem Domain
 
+Our datasets are related to our problem domain because they provide information on incidents involving the use of force from large police departments across the country. They provide detail on the officers, the type of force used, and also the victims. Some information include gender, age, race, experience, ect. We will be able to answer our research questions using these datasets because we can analyze factors and characteristics of individuals to evaluate whether certain groups account for a higher percentage of incidents. In addition, outside factors like the mental status of individuals and drugs are recorded which will allow us to see if they play a significant role. Furthermore, the experience of officers will allow us to evaluate whether experience and training plays a role in the number of incidents that involve the use of force. 
+
 ### Table
 
 |                       | Dallas | Seattle | New Orleans |
