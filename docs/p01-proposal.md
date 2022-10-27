@@ -70,7 +70,7 @@ A possible implication is the exposal of a long sustained system of institutiona
 
 ## Limitations
 
-A limitation that needs to be addressed is that we do not have the full context of each situation where the use of force had to be applied. There is no information given on whether the office was in real danger or whether the public was in danger. We are therefore unable to judge whether the use of force was necessary and whether it was justified. In addition, we are unable to determine whether there was an excessive use of force. Without the detailed context of every situation, we are also unable to judge whether an alternation solution was available to deescalate the situation.
+A limitation that needs to be addressed is that we do not have the full context of each situation where the use of force had to be applied. We do not know the background history of the individual or the crime that was committed that led to the use of force. A more dangerous individual with an extensive background history may make law enforcement more likely to want to end the threat quickly. There is no information given on whether the office was in real danger or whether the public was in danger. We are therefore unable to judge whether the use of force was necessary and whether it was justified. In addition, we are unable to determine whether there was an excessive use of force. Without the detailed context of every situation, we are also unable to judge whether an alternation solution was available to deescalate the situation.
 
 **TODO**: Edit this file. Your project proposal goes here.
 
