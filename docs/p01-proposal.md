@@ -33,9 +33,11 @@ The use of force by police is sometimes inevitable in certain situations in orde
 
 ## Related Works
 
-1.  <https://time.com/5861953/police-reform-use-of-force-database/>
-2.  <https://www.amnestyusa.org/issues/the-united-states-is-violating-the-human-rights-of-black-people-by-failing-to-restrict-use-of-deadly-force-by-police/>
-3.  <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7331505/>
+1.  Bergengruen, V. (2020, June 30). Inside the long effort to create a use-of-force database. Time. Retrieved October 28, 2022, from <https://time.com/5861953/police-reform-use-of-force-database/>
+
+2.  Schwartz, S. A. (2020). Police brutality and racism in America. Explore (New York, N.Y.). Retrieved October 28, 2022, from <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7331505/>
+
+3.  The United States is violating the human rights of black people by failing to restrict use of deadly force by police. Amnesty International USA. (n.d.). Retrieved October 28, 2022, from <https://www.amnestyusa.org/issues/the-united-states-is-violating-the-human-rights-of-black-people-by-failing-to-restrict-use-of-deadly-force-by-police/>
 
 ## Research Questions
 
@@ -47,7 +49,7 @@ The use of force by police is sometimes inevitable in certain situations in orde
 
 ### Relation to Problem Domain
 
-Our datasets are related to our problem domain because they provide information on incidents involving the use of force from large police departments across the country. They provide detail on the officers, the type of force used, and also the victims. Some information include gender, age, race, experience, ect. We will be able to answer our research questions using these datasets because we can analyze factors and characteristics of individuals to evaluate whether certain groups account for a higher percentage of incidents. In addition, outside factors like the mental status of individuals and drugs are recorded which will allow us to see if they play a significant role. Furthermore, the experience of officers will allow us to evaluate whether experience and training plays a role in the number of incidents that involve the use of force. 
+Our datasets are related to our problem domain because they provide information on incidents involving the use of force from large police departments across the country. They provide detail on the officers, the type of force used, and also the victims. Some information include gender, age, race, experience, ect. We will be able to answer our research questions using these datasets because we can analyze factors and characteristics of individuals to evaluate whether certain groups account for a higher percentage of incidents. In addition, outside factors like the mental status of individuals and drugs are recorded which will allow us to see if they play a significant role. Furthermore, the experience of officers will allow us to evaluate whether experience and training plays a role in the number of incidents that involve the use of force.
 
 ### Table
 
@@ -81,6 +83,20 @@ A possible implication is the exposal of a long sustained system of institutiona
 ## Limitations
 
 A limitation that needs to be addressed is that we do not have the full context of each situation where the use of force had to be applied. We do not know the background history of the individual or the crime that was committed that led to the use of force. A more dangerous individual with an extensive background history may make law enforcement more likely to want to end the threat quickly. There is no information given on whether the office was in real danger or whether the public was in danger. We are therefore unable to judge whether the use of force was necessary and whether it was justified. In addition, we are unable to determine whether there was an excessive use of force. Without the detailed context of every situation, we are also unable to judge whether an alternation solution was available to deescalate the situation.
+
+## References
+
+(NOPD), P. D. (2022, October 26). NOPD use of force incidents. data.nola.gov. Retrieved October 26, 2022, from https://data.nola.gov/Public-Safety-and-Preparedness/NOPD-Use-of-Force-Incidents/9mnw-mbde 
+
+Bergengruen, V. (2020, June 30). Inside the long effort to create a use-of-force database. Time. Retrieved October 28, 2022, from https://time.com/5861953/police-reform-use-of-force-database/ 
+
+Department, D. P. (2022, January 7). Police response to resistance 2020: Dallas opendata. Police Response to Resistance 2020 | Dallas OpenData. Retrieved October 26, 2022, from https://www.dallasopendata.com/Public-Safety/Police-Response-to-Resistance-2020/nufk-2iqn 
+
+Schwartz, S. A. (2020). Police brutality and racism in America. Explore (New York, N.Y.). Retrieved October 28, 2022, from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7331505/ 
+
+Seattle, C. of. (2022, October 26). Use of force: City of seattle open data portal. Seattle Open Data. Retrieved October 26, 2022, from https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj 
+
+The United States is violating the human rights of black people by failing to restrict use of deadly force by police. Amnesty International USA. (n.d.). Retrieved October 28, 2022, from https://www.amnestyusa.org/issues/the-united-states-is-violating-the-human-rights-of-black-people-by-failing-to-restrict-use-of-deadly-force-by-police/ 
 
 **TODO**: Edit this file. Your project proposal goes here.
 
