@@ -17,7 +17,7 @@ racedf <- seattle %>%
   mutate(letterID = LETTERS[row_number()]) %>%
   mutate(percent = round(total_by_race / sum(total_by_race) * 100))
 
-colors <- c("#9400D3", "#4B0082", "#0000FF", "#00FF00", "#FFFF00", "#FF7F00", "#FF0000", "#FF69B4")
+colors <- c("#9400D3", "#964B00", "#0000FF", "#00FF00", "#FFFF00", "#FF7F00", "#FF0000", "#FF69B4")
 #Create Visualization
 chart <- ggplot(data = racedf, aes(x = '', y = total_by_race, fill = paste0(letterID, ": ", Subject_Race, " (", percent, "%)"))) +
   geom_col(color = "black") +
