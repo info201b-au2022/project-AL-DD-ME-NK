@@ -1,6 +1,6 @@
-seattle <- read.csv("/Users/anthonylee/Documents/info201/Project/project-AL-DD-ME-NK/data/Seattle.csv")
-dallas <- read.csv("/Users/anthonylee/Documents/info201/Project/project-AL-DD-ME-NK/data/Dallas.csv")
-new_orlean <- read.csv("/Users/anthonylee/Documents/info201/Project/project-AL-DD-ME-NK/data/NewOrleans.csv", sep = ";")
+seattle <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/Seattle.csv")
+dallas <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/Dallas.csv")
+new_orlean <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/NewOrleans.csv", sep = ";")
 
 seattle_gender <- seattle %>%
   group_by(Subject_Gender) %>%

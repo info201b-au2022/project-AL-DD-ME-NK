@@ -8,7 +8,7 @@ library(dplyr)
 library(reshape2)
 
 #Import csv file for Seattle Police Department
-seattle <- read.csv("/Users/anthonylee/Documents/info201/Project/project-AL-DD-ME-NK/data/Seattle.csv")
+seattle <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/Seattle.csv")
 
 #Summarize total number of incidents involving use of force by subject race
 racedf <- seattle %>%
