@@ -22,8 +22,8 @@ summary_info$new_orleans_unjustified_prop <- summary_info$new_orleans_unjustifie
 
 
 #For Chart 2
-new_orleans <- separate_rows(new_orlean, Officer.Years.of.Service, sep=' | ')
-df <- new_orleans %>%
+new_orlean <- separate_rows(new_orlean, Officer.Years.of.Service, sep=' | ')
+df <- new_orlean %>%
   group_by(Officer.Years.of.Service) %>%
   summarize(total = n()) 
   filter(total == max(total))
