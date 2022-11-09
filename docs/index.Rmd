@@ -57,8 +57,9 @@ You can also embed plots, for example:
 ```
 
 ```{r echo=FALSE}
-knitr::kable(seattle_race, "pipe", col.name = c("Subject Race", "Number"))
+knitr::kable(seattle_gender, "pipe", col.name = c("Subject Gender", "Number"))
 ```
+The table shows the information about subjects who experienced the use of force by law enforcement in the city of Seattle. The table was included to show the distribution of subjects who experienced the use of force by law enforcement based on gender. Specifically, it was used to examine whether specific groups are more likely to be subjects of the use of force. The table shows that males account for a large majority of subjects with females being the second largest group. Groups like trans and non-binary make up a small proportion of subjects.
 
 ```{r echo=FALSE}
 chart
