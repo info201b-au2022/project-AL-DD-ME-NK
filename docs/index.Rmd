@@ -8,6 +8,7 @@ output: html_document
 ```{r setup, include=FALSE}
 source("../source/Chart1.R")
 source("../source/Table.R")
+source("../source/Chart2.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -68,3 +69,9 @@ chart
 The purpose of the pie chart is to show the percentage of force being used on a subject based on race. The pie chart allows us to identify trends in which groups are more likely to be subject of the use of force by law enforcement. Observations that can be made from the pie chart is that Blacks or African Americans and Whites account for a large majority of subjects in incidents involving the use of force. However, the Blacks or African Americans account for a significantly less proportion of the US population when compared to Whites. This may point to systematic racism.
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+``` {r echo=FALSE}
+barplot
+```
+
+This bar chart shows the total use of force with the officer's years in service. This bar chart lets us examine the trends between which officers will have a higher likelyhood in using force, and which ones don't. After observing this bar chart it shows that officers with 7-9 years of service been involved in the most use of force incidents. This bar chart also shows that the more years of service, the less use of force incidents there are, which may point that more training/experience leads to less use of force. 
