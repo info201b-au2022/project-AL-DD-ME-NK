@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Table
 ```{r echo=FALSE}
-knitr::kable(df, "pipe", col.name = c("Race", "Seattle", "Race", "Dallas", "Race", "New Orleans"), )
+knitr::kable(df, "pipe", col.name = c("Race", "Seattle Race Count", "Race", "Dallas Race Count", "Race", "New Orleans Race Count"), )
 ```
 The table shows the information about subjects who experienced the use of force by law enforcement in the city of Seattle. The table was included to show the distribution of subjects who experienced the use of force by law enforcement based on race. Specifically, it was used to examine whether specific groups are more likely to be subjects of the use of force. The table shows that whites account for a large majority of subjects with blacks being the second largest group. Groups like native american make up a small proportion of subjects.
 
