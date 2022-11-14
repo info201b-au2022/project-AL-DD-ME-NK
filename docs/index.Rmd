@@ -8,6 +8,8 @@ output: html_document
 ```{r setup, include=FALSE}
 source("../source/Chart1.R")
 source("../source/Table.R")
+source("../source/Chart2.R")
+source("../source/Chart3.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -17,37 +19,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 -   Please see Canvas for more details.
 
-## ACCESSING THE /source DIRECTORY
+## Table
+```{r echo=FALSE}
+knitr::kable(df, "pipe", col.name = c("Race", "Seattle Race Count", "Race", "Dallas Race Count", "Race", "New Orleans Race Count"), )
+```
+The table shows the information about subjects who experienced the use of force by law enforcement in the city of Seattle. The table was included to show the distribution of subjects who experienced the use of force by law enforcement based on race. Specifically, it was used to examine whether specific groups are more likely to be subjects of the use of force. The table shows that whites account for a large majority of subjects with blacks being the second largest group. Groups like native american make up a small proportion of subjects.
 
-### Example 1: Source some code and run a function
-
-```{r}
-  # Example 1: Note relative path, which can be read: Up one
-  # directory(..), down into source (/source), and 
-  # then "source" an R file (data_access.R)
- source("../source/data_access.R")
- data_access_test()
+## Graph 1
+```{r echo=FALSE}
+chart
 ```
 
-### Example 2: Initialize a variable and then use it
-
-```{r}
-  # Example 1: This function was "sourced" above
-  msg <- data_access_test(" Morgan!")
-```
-
-> `r msg` Hope you have a good day!!
-
-## ABOUT THIS FILE:
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
- summary(cars)
-```
-
+<<<<<<< HEAD
 ## Dynamic Paragraph
 
 The data sets pertain to use of force by police officers, aggregated by geographic region and gender, then by race. The following charts include a table and pie chart to provide various visualizations of the data, each focusing on a different aspect of use of force incidents.
@@ -61,21 +44,28 @@ These visual summaries of the overall use of force data allow one to put forth d
 ## Including Plots
 
 You can also embed plots, for example:
+=======
+The purpose of the pie chart is to show the percentage of force being used on a subject based on race. The pie chart allows us to identify trends in which groups are more likely to be subject of the use of force by law enforcement. Observations that can be made from the pie chart is that Blacks or African Americans and Whites account for a large majority of subjects in incidents involving the use of force. However, the Blacks or African Americans account for a significantly less proportion of the US population when compared to Whites. This may point to systematic racism.
+>>>>>>> 9116356f67368f804d0dae985cfdab6c09500340
 
-```{r pressure, echo=FALSE}
- plot(pressure)
+## Graph 2
+``` {r echo=FALSE}
+barplot
 ```
 
+<<<<<<< HEAD
 ```{r echo=FALSE}
 knitr::kable(seattle_gender, "pipe", col.name = c("Subject Gender", "Number"))
 ```
 
 The table shows the information about subjects who experienced the use of force by law enforcement in the city of Seattle. The table was included to show the distribution of subjects who experienced the use of force by law enforcement based on gender. Specifically, it was used to examine whether specific groups are more likely to be subjects of the use of force. The table shows that males account for a large majority of subjects with females being the second largest group. Groups like trans and non-binary make up a small proportion of subjects.
+=======
+This bar chart shows the total use of force with the officer's years in service. This bar chart lets us examine the trends between which officers will have a higher likelyhood in using force, and which ones don't. After observing this bar chart it shows that officers with 7-9 years of service been involved in the most use of force incidents. This bar chart also shows that the more years of service, the less use of force incidents there are, which may point that more training/experience leads to less use of force. 
+>>>>>>> 9116356f67368f804d0dae985cfdab6c09500340
 
-```{r echo=FALSE}
-chart
+## Graph 3
+``` {r echo=FALSE}
+factors_graph
 ```
 
-The purpose of the pie chart is to show the percentage of force being used on a subject based on race. The pie chart allows us to identify trends in which groups are more likely to be subject of the use of force by law enforcement. Observations that can be made from the pie chart is that Blacks or African Americans and Whites account for a large majority of subjects in incidents involving the use of force. However, the Blacks or African Americans account for a significantly less proportion of the US population when compared to Whites. This may point to systematic racism.
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+The pack circle chart shows the number of outside factors involved in the use of force. We included the chart because it lets us see what the most common factors contribute to the likelyhood of force being used. The size of the circles based on the number of recorded incidents allows for viewers to easily determine the largest contributing factors. The packed circle chart shows us that mental illness, alcohol, and drugs are key factors that significantly raise the likelyhood of force being involved. 

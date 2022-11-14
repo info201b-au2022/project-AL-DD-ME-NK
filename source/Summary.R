@@ -1,6 +1,6 @@
-seattle <- read.csv("/Users/anthonylee/Documents/info201/Project/project-AL-DD-ME-NK/data/Seattle.csv")
-dallas <- read.csv("/Users/anthonylee/Documents/info201/Project/project-AL-DD-ME-NK/data/Dallas.csv")
-new_orlean <- read.csv("/Users/anthonylee/Documents/info201/Project/project-AL-DD-ME-NK/data/NewOrleans.csv", sep = ";")
+seattle <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/Seattle.csv")
+dallas <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/Dallas.csv")
+new_orlean <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/NewOrleans.csv", sep = ";")
 
 summary_info <- list()
 summary_info$number_race_seattle <- unique(seattle$Subject_Race)
@@ -21,13 +21,7 @@ summary_info$new_orleans_unjustified_prop <- summary_info$new_orleans_unjustifie
 
 
 
-#For Chart 2
-new_orlean <- separate_rows(new_orlean, Officer.Years.of.Service, sep=' | ')
-df <- new_orlean %>%
-  group_by(Officer.Years.of.Service) %>%
-  summarize(total = n()) 
-  filter(total == max(total))
 
-df <- df[-1 : -2,]
+  
 
 
