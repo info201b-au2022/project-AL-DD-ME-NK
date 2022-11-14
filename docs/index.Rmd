@@ -1,6 +1,6 @@
 ---
 title: "The Use of Force by Police"
-author: "Anthony Lee, Niranjanna Kannan, Munir Emam, Dev Dhawan"
+author: "Anthony Lee, Niranjanaa Kannan, Munir Emam, Dev Dhawan"
 date: "11/14/2022"
 output: html_document
 ---
@@ -48,6 +48,16 @@ When you click the **Knit** button a document will be generated that includes bo
  summary(cars)
 ```
 
+## Dynamic Paragraph
+
+The data sets pertain to use of force by police officers, aggregated by geographic region and gender, then by race. The following charts include a table and pie chart to provide various visualizations of the data, each focusing on a different aspect of use of force incidents.
+
+The table aggregates the data by separating the victims of use of force by gender, to develop and data-based correlation between gender and use of force by police. In our findings, the mode for gender subjected to use of force was seen to be males, with 11007 cases of male victims compared to 3114 female victims, and 25 transgender female and other genders to follow. This is a stark skew in the data set, as the most common gender in use of force cases pertains to males by several times more than female, transgender females and males, and so on forth.
+
+The pie chart provides a visual summary of the victims of use of force by race, to bring forth a conclusion on the correlation between race and police use of force. In our findings the max percent of use of force incidents were subjected to White victims (making up 40% of the chart). However, 58.3% of the U.S. population is white. In the pie chart, 33% of use of force incidents were subjected to Black victims. However, only 12.6% of the U.S. population is Black. Based on this information, it can be reasonably concluded that Black people are disproportionately impacted by use-of force incidents, and are far more likely to encounter this issue than the average white resident of America.
+
+These visual summaries of the overall use of force data allow one to put forth data-driven analysis on specific factors within use-of-force incidents and make data-driven conclusions. However, there are still some limitations, including context for overall population and further segmentation of factors that impact use of force. Nonetheless, the data still points towards numbers that can be used to reasonably identify key factors in use of force incidents.
+
 ## Including Plots
 
 You can also embed plots, for example:
@@ -59,6 +69,7 @@ You can also embed plots, for example:
 ```{r echo=FALSE}
 knitr::kable(seattle_gender, "pipe", col.name = c("Subject Gender", "Number"))
 ```
+
 The table shows the information about subjects who experienced the use of force by law enforcement in the city of Seattle. The table was included to show the distribution of subjects who experienced the use of force by law enforcement based on gender. Specifically, it was used to examine whether specific groups are more likely to be subjects of the use of force. The table shows that males account for a large majority of subjects with females being the second largest group. Groups like trans and non-binary make up a small proportion of subjects.
 
 ```{r echo=FALSE}
