@@ -10,18 +10,19 @@ source("../source/Chart1.R")
 source("../source/Table.R")
 source("../source/Chart2.R")
 source("../source/Chart3.R")
+source("../source/Summary.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Dynamic Paragraph
 
-The data sets pertain to use of force by police officers, aggregated by geographic regions, gender, and race. In our findings, the mode for gender subjected to use of force was seen to be males, with 11007 cases of male victims in Seattle compared to 3139 female victims in Seattle. In addition there was 2779 male victims in Dallas, compared to only 590 female victims in Dallas. This is a stark skew in the data set, as the most common gender in use of force cases pertains to males by several times more than female.
+The data sets pertain to use of force by police officers, aggregated by geographic regions, gender, and race. In our findings, the mode for gender subjected to use of force was seen to be males, with `r males_seattle()` cases of male victims in Seattle compared to `r female_seattle()` female victims in Seattle. In addition there was `r males_dallas()` male victims in Dallas, compared to only `r female_dallas()` female victims in Dallas. This is a stark skew in the data set, as the most common gender in use of force cases pertains to males by several times more than female.
 
-The data sets also records the race of victims in incidents involving the use of force. The races recorded in the Seattle data set were Black, White, Asian, Native American, Native Hawaiian / Pacific Islander, Not Specified, Native American, and Hispanic or Latino. The races recorded in Dallas were Black, White, Asian, Hispanic, Other, NULL, and Unknown. The race counts let us analyze whether certain groups are more prone to be victims of the use of force.
+The data sets also records the race of victims in incidents involving the use of force. The races recorded in the Seattle data set were `r number_race_seattle()`. The races recorded in Dallas were `r number_race_dallas()`. The race counts let us analyze whether certain groups are more prone to be victims of the use of force.
 
-The New Orleans data set provided information on outside factors involved in the use of force incidents. Outside factors recorded include mentally unstable, alcohol, unknown, unknown drugs, marijuana, incoherent, agitated, animal, alcohol and unknown drugs, talking to themselves, poor hygiene, NULL, and none detected. These factors allowed us to further analyze whether certain groups of people are more likely to be involved in use of force incidents. 
+The New Orleans data set provided information on outside factors involved in the use of force incidents. Outside factors recorded include `r factors()`. These factors allowed us to further analyze whether certain groups of people are more likely to be involved in use of force incidents. 
 
-To try and discover how many incidents are deemed as unjustified, the New Orleans data set provides information on the number of incidents that the New Orleans Police Department deems as unjustified. Based on the data set, the number of unjustified incidents was 48 equating to a proportion of 0.016. However, there is limited information on what is unjustified and it is based off the discretion of the police departments investigation.
+To try and discover how many incidents are deemed as unjustified, the New Orleans data set provides information on the number of incidents that the New Orleans Police Department deems as unjustified. Based on the data set, the number of unjustified incidents was `r new_orleans_unjustified()` equating to a proportion of `r new_orleans_unjustified_prop()`. However, there is limited information on what is unjustified and it is based off the discretion of the police departments investigation.
 
 These visual summaries of the overall use of force data allow one to put forth data-driven analysis on specific factors within use-of-force incidents and make data-driven conclusions. However, there are still some limitations, including context for overall population and further segmentation of factors that impact use of force. Nonetheless, the data still points towards numbers that can be used to reasonably identify key factors in use of force incidents.
 
