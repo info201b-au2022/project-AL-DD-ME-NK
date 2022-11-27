@@ -39,7 +39,15 @@ server <- function(input, output) {
       mutate(letterID = LETTERS[row_number()]) %>%
       mutate(percent = round(total_by_race / sum(total_by_race) * 100))
     
-    chart <- plot_ly(racedf, labels=~Subject_Race, values = ~total_by_race, type = 'pie')
+    chart <- plot_ly(racedf, labels=~Subject_Race, values = ~total_by_race, type = 'pie') %>%
+      add_annotations(
+        y = 1.08, 
+        x = 0.5, 
+        text =" Subject Race by Year", 
+        showarrow = F,
+        font = list(size = 14)
+      )
+    
     chart
   })
 }
