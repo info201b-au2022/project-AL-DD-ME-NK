@@ -34,9 +34,12 @@ seattle$Occured_date_time <- format(seattle$Occured_date_time, format = "%Y")
 input_race_chart3 <- selectInput(
   inputId = "factor_input",
   label = "Select Factor",
-  choices = c("Mentally unstable", "Agitated", "None detected", "Alchohol", "Unknown Drugs", "Incoherent", "Alcohol and unkown drugs", "Unknown",
+  choices = c("Mentally unstable", "Agitated", "None detected", "Alcohol", "Unknown Drugs", "Incoherent", "Alcohol and unkown drugs", "Unknown",
               "Poor hygiene", "Marijuana", "NULL", "Talking to themselves", "Animal"),
   selected = "Mentall unstable")
+
+dallas$CIT_INFL_ASSMT[dallas$CIT_INFL_ASSMT == "Alchohol"] <- "Alcohol"
+dallas$CIT_INFL_ASSMT[dallas$CIT_INFL_ASSMT == "Alchohol and unknown drugs"] <- "Alcohol and unkown drugs"
 
 server <- function(input, output) {
   output$chart1 <- renderPlotly({
@@ -60,17 +63,25 @@ server <- function(input, output) {
   })
   
   output$chart3 <-renderPlotly({
-    dallas$CIT_INFL_ASSMT[dallas$CIT_INFL_ASSMT == "Alchohol"] <- "Alcohol"
-    dallas$CIT_INFL_ASSMT[dallas$CIT_INFL_ASSMT == "Alchohol and unknown drugs"] <- "Alcohol and unkown drugs"
     
     factors_df <- dallas %>%
       filter(CIT_INFL_ASSMT == input$factor_input) %>%
       group_by(CitRace) %>%
       summarize(total = n())
     
-    chart3 <- ggplotly(ggplot(factors_df, aes(x = CitRace, y = input$factor_input)) + 
-      geom_dotplot(binaxis = "y", stackdir = "center", binpositions="all") + 
-      geom_point(aes(size=total)))
+    factors_df <- factors_df %>%
+      rename("race" = "CitRace")
+    
+    factor <- input$factor_input
+    
+    chart3 <- ggplotly(ggplot(factors_df, aes(x = race, y = factor)) + 
+      geom_dotplot(binaxis = "y", stackdir = "center", binpositions = "all", binwidth = 0.1) + 
+      geom_point(aes(size = total)) +
+      labs(title = "Factors by Race",
+           x = "Subject Race",
+           y = "Factor") + 
+      theme(plot.title = element_text(hjust = 0.5)))
+    
     chart3
   })
 }
