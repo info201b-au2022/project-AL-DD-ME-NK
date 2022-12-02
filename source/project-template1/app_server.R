@@ -21,6 +21,7 @@ library(lubridate)
 
 seattle <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/Seattle.csv")
 dallas <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/Dallas.csv")
+new_orlean <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/NewOrleans.csv", sep = ";")
 
 input_year_chart1 <- selectInput(
   inputId = "year_input",
@@ -40,6 +41,9 @@ input_race_chart3 <- selectInput(
 
 dallas$CIT_INFL_ASSMT[dallas$CIT_INFL_ASSMT == "Alchohol"] <- "Alcohol"
 dallas$CIT_INFL_ASSMT[dallas$CIT_INFL_ASSMT == "Alchohol and unknown drugs"] <- "Alcohol and unkown drugs"
+
+new_orlean$Date.Occurred <- as.Date(new_orlean$Date.Occurred, "%m/%d/%Y")
+new_orlean$Date.Occurred <- format(new_orlean$Date.Occurred, format = "%Y")
 
 server <- function(input, output) {
   output$chart1 <- renderPlotly({
