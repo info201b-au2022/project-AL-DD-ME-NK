@@ -51,10 +51,11 @@ Our datasets are related to our problem domain because they provide information 
 
 ### Table
 
-|                          | Dallas | Seattle | New Orleans |
-|--------------------------|--------|---------|-------------|
-|  **Number of Rows**      |  3409  |  14723  |    2995     |
-| **Number of Columns**    |   44   |   11    |     33      |
+                                **Dallas**        **Seattle**    **New Orleans** 
+
+**Number of Rows**        3409        14723        2995     
+**Number of Columns**     44            11            33      
+
 
 ### Citation
 
@@ -79,6 +80,9 @@ d)  We were able to obtain the data by looking up public databases from police d
 **Do certain groups have higher rates of being victims of the use of force by police?**\
 Based off the pie chart, we are able to determine that Whites account for the highest percentage of incidents
 involving the use of force with Blacks or African Americans accounting for the second highest percentage of incidents. This trend is consistent across many years. However, we are unable to view the data based on percentage alone. We must take into account the proportion of the US population that is accounted for by Whites and Blacks or African Americans. According to the United States Census Bureau, Whites are estimated to account for 75.8% of the US population and Blacks or African Americans account for only 13.6% of the US population (“QuickFacts: United States”). The large difference in proportion when the US population is taken into account indicates that Blacks or African Americans make up a disproportionate amount of incidents involving the use of force.
+
+**Does officer experience and training correlate with the frequency of force being used?**
+From the bar chart, we are able to conclude that officer experience does correlate with the frequency of force being used. Officers with more experience are less likely to be involved in incidents involving the use of force while officers with less experience are more likely. This may point to more training being needed for new officers to better prepare them for situations. There may also be a lack of supervision of new officers resulting in higher number of incidents involving the use of force by newer officers. The number of incidents seems to exponentially increase from zero to five years and peak at around five to ten years of experience, but decreases significantly after ten years.
 
 **What outside factors increase the chances of force being used?**
 Based off the area encoding chart, it can be seen that the most common factors that affect all groups include being agitated, mentally unstable, drugs, and alcohol. These are all problems that can be seen in the modern world as governments work to find solutions. From the chart it can also be determined that Blacks and Hispanics are the most likely to be affected by outside factors. Even though Blacks and Hispanics make up a significantly less proportion of the US population when compared to Whites, they are most heavily impacted. This can be drawn back to income inequality and established systems that contribute to the problem. 
