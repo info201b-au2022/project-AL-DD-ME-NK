@@ -87,6 +87,10 @@ From the bar chart, we are able to conclude that officer experience does correla
 **What outside factors increase the chances of force being used?**
 Based off the area encoding chart, it can be seen that the most common factors that affect all groups include being agitated, mentally unstable, drugs, and alcohol. These are all problems that can be seen in the modern world as governments work to find solutions. From the chart it can also be determined that Blacks and Hispanics are the most likely to be affected by outside factors. Even though Blacks and Hispanics make up a significantly less proportion of the US population when compared to Whites, they are most heavily impacted. This can be drawn back to income inequality and established systems that contribute to the problem. 
 
+## Discussion importance and implications
+
+## Conclusion
+
 ## References
 
 (NOPD), P. D. (2022, October 26). NOPD use of force incidents. data.nola.gov. Retrieved October 26, 2022, from https://data.nola.gov/Public-Safety-and-Preparedness/NOPD-Use-of-Force-Incidents/9mnw-mbde 
