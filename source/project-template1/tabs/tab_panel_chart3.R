@@ -6,6 +6,7 @@ tab_panel_chart3 <-tabPanel(
     "Chart 3",
     hr(),
     hr(),
+    h1("Subject Race in Incidents by Dallas Police Department"),
     input_race_chart3,
     plotlyOutput("chart3"),
     hr(),

@@ -4,6 +4,8 @@ library(shiny)
 
 tab_panel_summary <-tabPanel(
     "Summary",
+    hr(),
+    hr(),
     p("This is for the summary of key points.")
 )
 

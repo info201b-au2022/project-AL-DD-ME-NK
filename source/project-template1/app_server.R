@@ -21,7 +21,11 @@ library(lubridate)
 
 seattle <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/Seattle.csv")
 dallas <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/Dallas.csv")
+<<<<<<< HEAD
 new_orleans <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/NewOrleans.csv", sep = ";")
+=======
+new_orlean <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/NewOrleans.csv", sep = ";")
+>>>>>>> 5f3199c5379c71a60b9dfff4a2e22f3095d861f2
 
 input_year_chart1 <- selectInput(
   inputId = "year_input",
@@ -42,6 +46,7 @@ input_race_chart3 <- selectInput(
 dallas$CIT_INFL_ASSMT[dallas$CIT_INFL_ASSMT == "Alchohol"] <- "Alcohol"
 dallas$CIT_INFL_ASSMT[dallas$CIT_INFL_ASSMT == "Alchohol and unknown drugs"] <- "Alcohol and unkown drugs"
 
+<<<<<<< HEAD
 new_orleans$Date.Occurred <- as.Date(new_orleans$Date.Occurred, "%m/%d/%Y")
 new_orleans$Date.Occurred <- format(new_orleans$Date.Occurred, format = "%Y")
 
@@ -51,6 +56,11 @@ input_date_chart2 <- selectInput(
   choices = c(2016, 2017, 2018, 2019, 2020, 2021, 2022),
   selected = 2016
 )
+=======
+new_orlean$Date.Occurred <- as.Date(new_orlean$Date.Occurred, "%m/%d/%Y")
+new_orlean$Date.Occurred <- format(new_orlean$Date.Occurred, format = "%Y")
+
+>>>>>>> 5f3199c5379c71a60b9dfff4a2e22f3095d861f2
 server <- function(input, output) {
   output$chart1 <- renderPlotly({
     racedf <- seattle %>%
