@@ -21,6 +21,7 @@ library(lubridate)
 
 seattle <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/Seattle.csv")
 dallas <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/Dallas.csv")
+new_orleans <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-AL-DD-ME-NK/main/data/NewOrleans.csv", sep = ";")
 
 input_year_chart1 <- selectInput(
   inputId = "year_input",
@@ -41,6 +42,15 @@ input_race_chart3 <- selectInput(
 dallas$CIT_INFL_ASSMT[dallas$CIT_INFL_ASSMT == "Alchohol"] <- "Alcohol"
 dallas$CIT_INFL_ASSMT[dallas$CIT_INFL_ASSMT == "Alchohol and unknown drugs"] <- "Alcohol and unkown drugs"
 
+new_orleans$Date.Occurred <- as.Date(new_orleans$Date.Occurred, "%m/%d/%Y")
+new_orleans$Date.Occurred <- format(new_orleans$Date.Occurred, format = "%Y")
+
+input_date_chart2 <- selectInput(
+  "date_input",
+  label = "Select Year",
+  choices = c(2016, 2017, 2018, 2019, 2020, 2021, 2022),
+  selected = 2016
+)
 server <- function(input, output) {
   output$chart1 <- renderPlotly({
     racedf <- seattle %>%
@@ -83,6 +93,26 @@ server <- function(input, output) {
       theme(plot.title = element_text(hjust = 0.5)))
     
     chart3
+  })
+  output$chart2 <- renderPlotly({
+    
+    new_orleans <- separate_rows(new_orleans, Officer.Years.of.Service, sep = " | ")
+    service_count <- new_orleans %>% 
+      group_by(Officer.Years.of.Service, Date.Occurred) %>%
+      filter(Date.Occurred == input$date_input) %>%
+      summarise(total = n())
+    
+    service_count <- service_count[-1 : -2,]
+    service_count$Officer.Years.of.Service <- as.numeric(as.character(service_count$Officer.Years.of.Service))
+    
+    date_service <- service_count %>%
+      arrange(Officer.Years.of.Service) 
+    
+    chart2 <- ggplot(date_service, aes(Officer.Years.of.Service , total)) +
+      geom_bar(stat = "identity", width = 0.75, fill="steelblue") +
+      labs(title = "Total Amount of Use of Force by Years of Service", x = "Officers Years of Service", y = "Total Use of Force")
+      
+    chart2
   })
 }
 
