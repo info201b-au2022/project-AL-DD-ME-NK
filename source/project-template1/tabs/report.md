@@ -1,5 +1,4 @@
-<br/><br/>
-# The Use of Force by Police
+<br/><br/> \# The Use of Force by Police
 
 **Autumn 2022**\
 **Code Name:** Newton\
@@ -51,11 +50,10 @@ Our datasets are related to our problem domain because they provide information 
 
 ### Table
 
-                                **Dallas**        **Seattle**    **New Orleans** 
+                                **Dallas**        **Seattle**    **New Orleans**
 
-**Number of Rows**        3409        14723        2995     
-**Number of Columns**     44            11            33      
-
+**Number of Rows**        3409        14723        2995\
+**Number of Columns**     44            11            33
 
 ### Citation
 
@@ -78,19 +76,17 @@ d)  We were able to obtain the data by looking up public databases from police d
 ## Findings
 
 **Do certain groups have higher rates of being victims of the use of force by police?**\
-Based off the pie chart, we are able to determine that Whites account for the highest percentage of incidents
-involving the use of force with Blacks or African Americans accounting for the second highest percentage of incidents. This trend is consistent across many years. However, we are unable to view the data based on percentage alone. We must take into account the proportion of the US population that is accounted for by Whites and Blacks or African Americans. According to the United States Census Bureau, Whites are estimated to account for 75.8% of the US population and Blacks or African Americans account for only 13.6% of the US population (“QuickFacts: United States”). The large difference in proportion when the US population is taken into account indicates that Blacks or African Americans make up a disproportionate amount of incidents involving the use of force.
+Based off the pie chart, we are able to determine that Whites account for the highest percentage of incidents involving the use of force with Blacks or African Americans accounting for the second highest percentage of incidents. This trend is consistent across many years. However, we are unable to view the data based on percentage alone. We must take into account the proportion of the US population that is accounted for by Whites and Blacks or African Americans. According to the United States Census Bureau, Whites are estimated to account for 75.8% of the US population and Blacks or African Americans account for only 13.6% of the US population ("QuickFacts: United States"). The large difference in proportion when the US population is taken into account indicates that Blacks or African Americans make up a disproportionate amount of incidents involving the use of force.
 
-**Does officer experience and training correlate with the frequency of force being used?**
-From the bar chart, we are able to conclude that officer experience does correlate with the frequency of force being used. Officers with more experience are less likely to be involved in incidents involving the use of force while officers with less experience are more likely. This may point to more training being needed for new officers to better prepare them for situations. There may also be a lack of supervision of new officers resulting in higher number of incidents involving the use of force by newer officers. The number of incidents seems to exponentially increase from zero to five years and peak at around five to ten years of experience, but decreases significantly after ten years.
+**Does officer experience and training correlate with the frequency of force being used?** From the bar chart, we are able to conclude that officer experience does correlate with the frequency of force being used. Officers with more experience are less likely to be involved in incidents involving the use of force while officers with less experience are more likely. This may point to more training being needed for new officers to better prepare them for situations. There may also be a lack of supervision of new officers resulting in higher number of incidents involving the use of force by newer officers. The number of incidents seems to exponentially increase from zero to five years and peak at around five to ten years of experience, but decreases significantly after ten years.
 
-**What outside factors increase the chances of force being used?**
-Based off the area encoding chart, it can be seen that the most common factors that affect all groups include being agitated, mentally unstable, drugs, and alcohol. These are all problems that can be seen in the modern world as governments work to find solutions. From the chart it can also be determined that Blacks and Hispanics are the most likely to be affected by outside factors. Even though Blacks and Hispanics make up a significantly less proportion of the US population when compared to Whites, they are most heavily impacted. This can be drawn back to income inequality and established systems that contribute to the problem. 
+**What outside factors increase the chances of force being used?** Based off the area encoding chart, it can be seen that the most common factors that affect all groups include being agitated, mentally unstable, drugs, and alcohol. These are all problems that can be seen in the modern world as governments work to find solutions. From the chart it can also be determined that Blacks and Hispanics are the most likely to be affected by outside factors. Even though Blacks and Hispanics make up a significantly less proportion of the US population when compared to Whites, they are most heavily impacted. This can be drawn back to income inequality and established systems that contribute to the problem.
 
 ## Discussion
+
     Implications that can be seen from the data visualizations is a long sustained system of institutional racism from policymakers and the lack of initiative to address worsening issues. Minority groups face an abnormally higher rate of being involved in incidents that involve the use of force. The pie chart supports the implication that Blacks are much more likely to face the use of force by law enforcement. Although minority groups in the US account for a much smaller proportion of the US population, they represent a much larger percentage of victims being involved in incidents involving the use of force.
 
-    The data visualizations also reveal a lack of initiative by government institutions to fund solutions for worsening issues. This leads to certain groups becoming more likely to be subjects of incidents involving the use of force with law enforcement. Some examples of groups include people who suffer from mental illness and drug addiction. This implies the government's lack of policy making that funds the establishment of programs that help address the issues such as rehabilitation programs and mental illness clinics. 
+    The data visualizations also reveal a lack of initiative by government institutions to fund solutions for worsening issues. This leads to certain groups becoming more likely to be subjects of incidents involving the use of force with law enforcement. Some examples of groups include people who suffer from mental illness and drug addiction. This implies the government's lack of policy making that funds the establishment of programs that help address the issues such as rehabilitation programs and mental illness clinics.
 
     Furthermore, officers with less experience are more likely to be involved in incidents involving the use of force. The data visualization supports the idea that there may be a lack of training or supervision of newer officers. Policies and training are not ensuring that every officer is fully trained on how to handle the situations they may face. A disproportionate number of incidents involving the use of force are caused by officers with less experience when compared to more experienced officers.
 
@@ -98,24 +94,31 @@ Based off the area encoding chart, it can be seen that the most common factors t
 
 ## Conclusion
 
+Although force is necessary when making arrests and enforcing the law, the data set points towards violence and force being used by Police towards African American and Hispanic individuals at an excessive rate compared to White Americans. Both these communities together only make up 32.2 percent of the US population according to the United States Census Bureau yet, make up about 38 percent of victims of force according to the first chart.
+
+A large reason as to why force is used according to the arresting officer is the individual is aggravated or aggressive. Many officers often see people of color as more hostile persons and in turn are more likely to use force.
+
+These issues and biases stem from Police training, backgrounds, and government policy. The data visualization illustrates officers with less experience are in incidents involving force more often than experienced officers. Many of the communities involved in crime also struggle with drugs, alcohol abuse, and mental illness. These issues have only gotten worse with time as the US government has turned their backs from building these communities up. 
+
+All these system issues have led to victims of excessive force being made largely by people of color despite their smaller population compared to White people in the United States.
+
+However, solutions involving larger budgets for adequate police department training, having programs to help individuals struggling financially and mentally, and cleaning communities from drugs could help minimalize police force and brutality to African American and Hispanic individuals. 
+
+
 ## References
 
-(NOPD), P. D. (2022, October 26). NOPD use of force incidents. data.nola.gov. Retrieved October 26, 2022, from https://data.nola.gov/Public-Safety-and-Preparedness/NOPD-Use-of-Force-Incidents/9mnw-mbde 
+(NOPD), P. D. (2022, October 26). NOPD use of force incidents. data.nola.gov. Retrieved October 26, 2022, from <https://data.nola.gov/Public-Safety-and-Preparedness/NOPD-Use-of-Force-Incidents/9mnw-mbde>
 
-Bergengruen, V. (2020, June 30). Inside the long effort to create a use-of-force database. Time. Retrieved October 28, 2022, from https://time.com/5861953/police-reform-use-of-force-database/ 
+Bergengruen, V. (2020, June 30). Inside the long effort to create a use-of-force database. Time. Retrieved October 28, 2022, from <https://time.com/5861953/police-reform-use-of-force-database/>
 
-Department, D. P. (2022, January 7). Police response to resistance 2020: Dallas opendata. Police Response to Resistance 2020 | Dallas OpenData. Retrieved October 26, 2022, from https://www.dallasopendata.com/Public-Safety/Police-Response-to-Resistance-2020/nufk-2iqn 
+Department, D. P. (2022, January 7). Police response to resistance 2020: Dallas opendata. Police Response to Resistance 2020 \| Dallas OpenData. Retrieved October 26, 2022, from <https://www.dallasopendata.com/Public-Safety/Police-Response-to-Resistance-2020/nufk-2iqn>
 
-“QuickFacts: United States.” Census Bureau QuickFacts, United States Census Bureau, 2021, www.census.gov/quickfacts/fact/table/US/PST045221. Accessed 2 Dec. 2022.
+"QuickFacts: United States." Census Bureau QuickFacts, United States Census Bureau, 2021, www.census.gov/quickfacts/fact/table/US/PST045221. Accessed 2 Dec. 2022.
 
 Sandiego.edu, 2020, www.sandiego.edu/uploads/36d66f168d0021949cbfe142b8e7359c.jpg. Accessed 2 Dec. 2022.
 
-Schwartz, S. A. (2020). Police brutality and racism in America. Explore (New York, N.Y.). Retrieved October 28, 2022, from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7331505/ 
+Schwartz, S. A. (2020). Police brutality and racism in America. Explore (New York, N.Y.). Retrieved October 28, 2022, from <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7331505/>
 
-Seattle, C. of. (2022, October 26). Use of force: City of seattle open data portal. Seattle Open Data. Retrieved October 26, 2022, from https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj 
+Seattle, C. of. (2022, October 26). Use of force: City of seattle open data portal. Seattle Open Data. Retrieved October 26, 2022, from <https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj>
 
-The United States is violating the human rights of black people by failing to restrict use of deadly force by police. Amnesty International USA. (n.d.). Retrieved October 28, 2022, from https://www.amnestyusa.org/issues/the-united-states-is-violating-the-human-rights-of-black-people-by-failing-to-restrict-use-of-deadly-force-by-police/ 
-
-
-
-
+The United States is violating the human rights of black people by failing to restrict use of deadly force by police. Amnesty International USA. (n.d.). Retrieved October 28, 2022, from <https://www.amnestyusa.org/issues/the-united-states-is-violating-the-human-rights-of-black-people-by-failing-to-restrict-use-of-deadly-force-by-police/>
