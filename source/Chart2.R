@@ -7,7 +7,6 @@ service_count <- new_orleans %>%
 group_by(Officer.Years.of.Service) %>%
 summarise(total = n())
 
-
 service_count <- service_count[-1 : -2,]
 service_count$Officer.Years.of.Service <- as.numeric(as.character(service_count$Officer.Years.of.Service))
  service_count <- service_count %>%

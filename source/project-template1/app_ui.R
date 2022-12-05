@@ -19,7 +19,7 @@ source("tabs/tab_panel_report.R")
 ui <- navbarPage(
   title = "The Use of Force by Police",
   position = "fixed-top",
-
+  includeCSS("www/style.css"),
    # # A simple header
    # header = list(
    #   tags$style(type = "text/css", "body {padding-top: 70px;}"),
@@ -38,7 +38,7 @@ ui <- navbarPage(
 
   # The project introduction
   tab_panel_intro,
-
+  
   # The three charts
   tab_panel_chart1,
   tab_panel_chart2,
