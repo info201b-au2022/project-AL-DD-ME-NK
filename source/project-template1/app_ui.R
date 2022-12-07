@@ -16,10 +16,11 @@ source("tabs/tab_panel_chart3.R")
 source("tabs/tab_panel_summary.R")
 source("tabs/tab_panel_report.R")
 
-ui <- navbarPage(
+ui <- tagList(
+  includeCSS("www/style.css"),
+  navbarPage(
   title = "The Use of Force by Police",
   position = "fixed-top",
-  includeCSS("www/style.css"),
 
   # The project introduction
   tab_panel_intro,
@@ -34,4 +35,5 @@ ui <- navbarPage(
 
   # The project report
   tab_panel_report
+  )
 )

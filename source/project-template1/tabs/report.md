@@ -1,4 +1,4 @@
-<br/><br/> \
+<br/><br/> 
 # The Use of Force by Police
 
 **Autumn 2022**\
