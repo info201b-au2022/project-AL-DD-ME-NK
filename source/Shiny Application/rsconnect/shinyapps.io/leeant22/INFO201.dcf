@@ -5,9 +5,9 @@ account: leeant22
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7810446
-bundleId: 6601748
+bundleId: 6601797
 url: https://leeant22.shinyapps.io/INFO201/
-when: 1670373728.04524
-lastSyncTime: 1670373728.04526
+when: 1670374482.47528
+lastSyncTime: 1670374482.47529
 asMultiple: FALSE
 asStatic: FALSE
