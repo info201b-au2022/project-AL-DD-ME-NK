@@ -1,4 +1,5 @@
-<br/><br/> \# The Use of Force by Police
+<br/><br/> \
+# The Use of Force by Police
 
 **Autumn 2022**\
 **Code Name:** Newton\
