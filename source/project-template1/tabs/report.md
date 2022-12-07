@@ -94,16 +94,21 @@ Based off the pie chart, we are able to determine that Whites account for the hi
 
 ## Conclusion
 
-Although force is necessary when making arrests and enforcing the law, the data set points towards violence and force being used by Police towards African American and Hispanic individuals at an excessive rate compared to White Americans. Both these communities together only make up 32.2 percent of the US population according to the United States Census Bureau yet, make up about 38 percent of victims of force according to the first chart.
+    In recent years, the debate on whether police target specific individuals based in race and gender has grown. Victims of police brutality, like George Floyd, have been highlighted by the media, growing the discussion further. Although force is necessary when making arrests and enforcing the law, the data set points towards violence and force being used by police towards African American and Hispanic individuals at an excessive rate compared to White Americans. 
 
-A large reason as to why force is used according to the arresting officer is the individual is aggravated or aggressive. Many officers often see people of color as more hostile persons and in turn are more likely to use force.
+    In the United States, White Americans are a well-known majority, often having more privilege compared to other groups of people. Both African American and Hispanic communities together only make up 32.2 percent of the US population according to the United States Census Bureau yet, make up about 38 percent of victims of force according to the first chart. 
 
-These issues and biases stem from Police training, backgrounds, and government policy. The data visualization illustrates officers with less experience are in incidents involving force more often than experienced officers. Many of the communities involved in crime also struggle with drugs, alcohol abuse, and mental illness. These issues have only gotten worse with time as the US government has turned their backs from building these communities up. 
+    A large reason as to why force is used according to the arresting officer is the individual is aggravated or aggressive. Many officers often see people of color as more hostile persons and in turn are more likely to use force. Jayland Walker is an example of how officers use unnecessary violence towards African Americans. 
 
-All these system issues have led to victims of excessive force being made largely by people of color despite their smaller population compared to White people in the United States.
+    Though Walker was unarmed, he had been shot 46 times by eight officers. The police union also showed support for the officers, believing the officers were in danger and acted as they were trained. Yet, the number of bullets fired is clearly unwarranted as nothing was shot back at the officers. The officers remain unpunished. Walker’s story demonstrates how these issues and biases stem from Police training, backgrounds, and government policy. 
 
-However, solutions involving larger budgets for adequate police department training, having programs to help individuals struggling financially and mentally, and cleaning communities from drugs could help minimalize police force and brutality to African American and Hispanic individuals. 
+    Many unexperienced cops are regularly stationed in dangerous neighborhoods and cities by police departments. The data visualization illustrates how these officers with less experience are in incidents involving force more often than experienced officers. Again, this a common practice that hasn’t changed though an abundant amount of data supports this conclusion. 
 
+    During the 1930s, the New Deal had many programs helping place Americans in affordable housing. However, the risky, new neighborhoods had been filled by people of color to keep these groups separated from White Americans. As the neighborhoods developed over the years, many of the communities became involved in crime. The individuals also habitually struggle with drugs, alcohol abuse, and mental illness. These issues have only gotten worse with time as the US government has turned their backs from fixing and building these communities up. 
+
+    All these system issues have led to victims of excessive force being made largely by people of color despite their smaller population compared to White people in the United States.
+
+    However, understanding and researching this topic has led to many solutions. This includes having larger budgets for adequate police department training, having programs to help individuals struggling financially and mentally, and cleaning communities from drugs. These resolutions could help minimalize police force and brutality to African American and Hispanic individuals. 
 
 ## References
 
@@ -111,9 +116,15 @@ However, solutions involving larger budgets for adequate police department train
 
 Bergengruen, V. (2020, June 30). Inside the long effort to create a use-of-force database. Time. Retrieved October 28, 2022, from <https://time.com/5861953/police-reform-use-of-force-database/>
 
+Candace Jackson. (2021, August 17). What Is Redlining?. New York Times. Retrieved December 3, 2022, from <https://www.nytimes.com/2021/08/17/realestate/what-is-redlining.html>
+
+David A. Love. (2022, July 0). US: murder of Jayland Walker was indeed ‘routine’ police practice. Aljazeera. Retrieved December 3, 2022, from <https://www.aljazeera.com/opinions/2022/7/10/the-murder-of-jayland-walker-was-indeed-routine-police-practice>
+
 Department, D. P. (2022, January 7). Police response to resistance 2020: Dallas opendata. Police Response to Resistance 2020 \| Dallas OpenData. Retrieved October 26, 2022, from <https://www.dallasopendata.com/Public-Safety/Police-Response-to-Resistance-2020/nufk-2iqn>
 
 "QuickFacts: United States." Census Bureau QuickFacts, United States Census Bureau, 2021, www.census.gov/quickfacts/fact/table/US/PST045221. Accessed 2 Dec. 2022.
+
+Sam Cambrel. (2022, July 15). Jayland Walker: Autopsy shows black man 'shot or grazed' 46 times. BBC. Retrieved on December 3, 2022, from <https://www.bbc.com/news/world-us-canada-62184202>
 
 Sandiego.edu, 2020, www.sandiego.edu/uploads/36d66f168d0021949cbfe142b8e7359c.jpg. Accessed 2 Dec. 2022.
 
